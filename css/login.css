@@ -1,0 +1,271 @@
+
+/*=======================================
+       Basic Properties start
+
+
+       body
+{
+
+	height: 2000px;
+}
+==========================================*/
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#myhead
+{
+	font-family: 'Lobster', cursive;
+}
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+/*=======================================
+  Sticky Navigation with background color
+==========================================*/
+
+.secondary
+{
+	background-color:#111e2d !important;
+}
+
+
+
+/*=======================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.slider
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(..//img/20220227_064908.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;	
+}
+
+.slider-overlay
+{
+	width: 100%;
+	height: 100%;
+	background : rgba(0,0,0,0.6);
+}
+
+
+/*=======================================
+       Login Page Properties start
+==========================================*/
+#perror
+{
+	position: absolute;
+	margin-top:-5px !important;
+	color: red !important; 
+	width: 190px;
+}
+#login-heading
+{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	position: absolute;
+	margin-top: 1rem;
+	size: 2rem;
+}
+
+.modal-content
+{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+    position: relative;
+    margin:5% auto;
+	width: 350px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    margin-top:140px;
+    border-style: 	groove;
+	border-radius: 1rem;
+}
+.left-box
+{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	top:0;
+	left:0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 350px;
+	height: 350px;
+}
+.pp{
+	display: flex;
+	align-items: center;
+}
+.oo{
+	margin-left: .5rem;
+}
+.form-control{
+	display: block;
+    width: 88%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input[type="text"]
+{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+    width: 88%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#btn-login
+{
+	margin-top: 20px;
+	width:120px ;
+	height: 32px ;
+	border: none ;
+	border-radius: 2px ;
+	color: #fff ;
+	font-weight:500px ;
+	text-transform: uppercase ;
+	transition: 0.5 ease-in ;
+	cursor: pointer ;
+	position: relative ;
+	background-color: orangered ;
+	margin-left: 30px;
+	padding-top: 0px ;
+	border-radius: 1rem;
+}
+
+#btn-login:hover
+{
+	cursor: pointer !important;
+}
+
+.register h2
+{
+	width: 250px;
+	padding-top: 15px;
+	font-size: 16px;
+}
+#create-account a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.right-box
+{
+	position: absolute !important;
+	margin-top:-71.5px !important;
+	right: 0 !important;
+	box-sizing: border-box !important;
+	padding: 40px !important;
+	width: 300px !important;
+	height: 400px !important;
+	background-image: url(..//img/ooo.jpg);
+	background-size: cover !important;
+
+}
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+button.social
+{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color:#fff;
+	font-weight: 500;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+
+
+
+
+/*=======================================
+       LoginPage Properties End
+==========================================*/
+
+
+/*=======================================
+       Our Services Properties Starts
+==========================================*/
+
+
+
+@media screen and (max-width : 350px) {
+    .background-image{
+		width: 100%;
+		height: 100vh;
+	}
+
+	.modal-content{
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		position: relative;
+		margin:5% auto;
+		width: 320px;
+		height: 320px;
+		background: #fff;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+		margin-top:140px;
+		border-style: groove;
+		border-radius: 1rem;
+	}
+}
